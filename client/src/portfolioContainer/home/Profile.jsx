@@ -1,16 +1,19 @@
 import Typical from "react-typical";
+import "./Profile.css";
 export default function Profile() {
   return (
     <div className="profile-container">
       <div className="profile-parent">
         <div className="profile-details">
           <div className="colz">
-            <a href="https://t.me/Armins88s">
-              <i className="fa-brands fa-telegram"></i>
-            </a>
-            {/* <a href="#">
+            <div className="colz-icon">
+              <a href="https://t.me/Armins88s">
+                <i className="fa-brands fa-telegram fa-xl"></i>
+              </a>
+              {/* <a href="#">
               <i className="fa-brands fa-square-whatsapp"></i>
             </a> */}
+            </div>
           </div>
           <div className="profile-details-name">
             <span className="primary-text">
@@ -34,14 +37,14 @@ export default function Profile() {
                   ]}
                 />
               </h1>
-              <span className="profile-role-togline">
+              <span className="profile-role-tagline">
                 knock of building application with frontend and backend
                 operation
               </span>
             </span>
           </div>
           <div className="profile-options">
-            <button className="btn btn-primary">
+            <button className="btn primary-btn">
               {""}
               Hire Me {""}
             </button>
@@ -49,6 +52,9 @@ export default function Profile() {
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
           </div>
+        </div>
+        <div className="profile-picture">
+          <div className="profile-picture-background"></div>
         </div>
       </div>
     </div>
