@@ -36,7 +36,7 @@
   color: var(--white);
 }
 
-.header-option-seperator {
+.header-option-separator {
   margin: 0 50px 0 0;
   color: var(--white);
 }
@@ -74,8 +74,8 @@
     transition: all 0.8s ease-out;
   }
 
-  .header-option-seperator {
-    margin: 0;
+  .header-option-separator {
+    margin: 10;
   }
   .selected-header-option {
     color: var(--white);

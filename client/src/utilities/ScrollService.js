@@ -4,7 +4,7 @@ import { Subject } from "rxjs";
 export default class ScrollService {
   static scrollHandler = new ScrollService();
 
-  static currentScreenBroadcaster = new Subject();
+  static currentScreenBroadCaster = new Subject();
   static currentScreenFadeIn = new Subject();
 
   constructor() {
@@ -61,7 +61,7 @@ export default class ScrollService {
           break;
         }
         if (fullyVisible) {
-          ScrollService.currentScreenBroadcaster.next({
+          ScrollService.currentScreenBroadCaster.next({
             screenInView: screen.screen_name,
           });
           break;
