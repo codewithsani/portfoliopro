@@ -35,18 +35,19 @@ export default function Header() {
   const getHeaderOptionsClass = (index) => {
     let classes = "header-option ";
 
-    if (index < TOTAL_SCREENS.length - 1)
-      return (classes += "header-option-separator");
+    if (index < TOTAL_SCREENS.length - 1) classes += "header-option-separator";
 
-    if (selectedScreen === index) return (classes += "selected-header-option");
-    return;
+    if (selectedScreen === index) classes += " selected-header-option ";
+    return classes;
   };
 
   const switchScreen = (index, screen) => {
     let screenComponent = document.getElementById(screen.screen_name);
+    console.log(screenComponent);
     if (!screenComponent) return;
     screenComponent.scrollIntoView({ behavior: "smooth" });
     setSelectedScreen(index);
+    console.log(index);
     setShowHeaderOptions(false);
   };
   return (

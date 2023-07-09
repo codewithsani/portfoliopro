@@ -39,6 +39,7 @@
   position: absolute;
   display: flex;
   justify-content: center;
+  top: -4px;
 }
 
 .separator-blob div {
