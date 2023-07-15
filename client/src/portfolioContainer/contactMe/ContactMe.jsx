@@ -33,7 +33,7 @@ export default function ContactMe(props) {
         message,
       };
       setBool(true);
-      const res = await axios.post(`/contact`, data);
+      const res = await axios.post("/contact", data);
       if (name.length === 0 || email.length === 0 || message.length === 0) {
         setBanner(res.data.msg);
         toast.error(res.data.msg);
@@ -42,6 +42,9 @@ export default function ContactMe(props) {
         setBanner(res.data.msg);
         toast.success(res.data.msg);
         setBool(false);
+        setName("");
+        setEmail("");
+        setMessage("");
       }
     } catch (error) {
       console.log(error);
@@ -54,7 +57,19 @@ export default function ContactMe(props) {
       <div className="central-form">
         <div className="col">
           <h2 className="title">
-            <Typical loop={Infinity} steps={["GET IN TOUCH 📧", 1000]} />
+            <Typical
+              loop={Infinity}
+              steps={[
+                "Enthusiastic 🔥",
+                1000,
+                "Full Stack 💻",
+                1000,
+                "MERN 🌎",
+                1000,
+                "Developer 😎",
+                1000,
+              ]}
+            />
           </h2>
           <a href="https://t.me/Armins88s">
             <i className="fa-brands fa-telegram fa-xl"></i>

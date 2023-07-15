@@ -4,6 +4,9 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import ScreenHeading from "../../utilities/screenHeading/ScreenHeading";
 import "./testimonial.css";
 
+import lady from "../../img/testimonial/lady.png";
+import man from "../../img/testimonial/man.png";
+
 export default function Testimonial(props) {
   const options = {
     loop: true,
@@ -70,10 +73,7 @@ export default function Testimonial(props) {
                     </ul>
                   </div>
                   <div className="client-info">
-                    <img
-                      src="img/testimonial/lady.png"
-                      alt="no internet connection"
-                    />
+                    <img src={lady} alt="no internet connection" />
                     <h5>Daisy Dominic</h5>
                     <p>CEO InansGlobal</p>
                   </div>
@@ -107,10 +107,7 @@ export default function Testimonial(props) {
                     </ul>
                   </div>
                   <div className="client-info">
-                    <img
-                      src="img/testimonial/man.png"
-                      alt="no internet connection"
-                    />
+                    <img src={man} alt="no internet connection" />
                     <h5>Daisy Dominic</h5>
                     <p>CEO InansGlobal</p>
                   </div>
@@ -144,10 +141,7 @@ export default function Testimonial(props) {
                     </ul>
                   </div>
                   <div className="client-info">
-                    <img
-                      src="img/testimonial/man.png"
-                      alt="no internet connection"
-                    />
+                    <img src={man} alt="no internet connection" />
                     <h5>Daisy Dominic</h5>
                     <p>CEO InansGlobal</p>
                   </div>
@@ -181,10 +175,7 @@ export default function Testimonial(props) {
                     </ul>
                   </div>
                   <div className="client-info">
-                    <img
-                      src="img/testimonial/lady.png"
-                      alt="no internet connection"
-                    />
+                    <img src={lady} alt="no internet connection" />
                     <h5>Daisy Dominic</h5>
                     <p>CEO InansGlobal</p>
                   </div>
