@@ -22,7 +22,7 @@ contactRoute.post("/contact", (req, res) => {
   });
 
   let mailOptions = {
-    from: data.email,
+    from: `${data.email}`,
     to: "saied.sani.biderooni@gmail.com",
     subject: `message from ${data.name}`,
     html: `
