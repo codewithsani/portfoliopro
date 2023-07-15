@@ -4,13 +4,13 @@ import Animations from "../../utilities/Animations";
 import "./aboutMe.css";
 
 export default function AboutMe(props) {
-  let fadeInScreenHandler = (screen) => {
-    if (screen.fadeScreen !== props.id) return;
-    Animations.animations.fadeInScreen(props.id);
-  };
+  // let fadeInScreenHandler = (screen) => {
+  //   if (screen.fadeScreen !== props.id) return;
+  //   Animations.animations.fadeInScreen(props.id);
+  // };
 
-  const fadeInSubscription =
-    ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
+  // const fadeInSubscription =
+  //   ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
   const SCREEN_CONSTANTS = {
     description:
@@ -56,7 +56,10 @@ export default function AboutMe(props) {
               {renderHighlight()}
             </div>
             <div className="about-me-options">
-              <button className="btn primary-btn">
+              <button
+                className="btn primary-btn"
+                onClick={() => ScrollService.scrollHandler.scrollToHome()}
+              >
                 {""}
                 Hire Me {""}
               </button>

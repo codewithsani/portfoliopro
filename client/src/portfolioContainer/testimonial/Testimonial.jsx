@@ -2,18 +2,18 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import ScreenHeading from "../../utilities/screenHeading/ScreenHeading";
-import ScrollService from "../../utilities/ScrollService";
-import Animations from "../../utilities/Animations";
+// import ScrollService from "../../utilities/ScrollService";
+// import Animations from "../../utilities/Animations";
 import "./testimonial.css";
 
 export default function Testimonial(props) {
-  let fadeInScreenHandler = (screen) => {
-    if (screen.fadeScreen !== props.id) return;
-    Animations.animations.fadeInScreen(props.id);
-  };
+  // let fadeInScreenHandler = (screen) => {
+  //   if (screen.fadeScreen !== props.id) return;
+  //   Animations.animations.fadeInScreen(props.id);
+  // };
 
-  const fadeInSubscription =
-    ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
+  // const fadeInSubscription =
+  //   ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
   const options = {
     loop: true,
@@ -38,12 +38,12 @@ export default function Testimonial(props) {
   };
 
   return (
-    <div>
+    <div id={props.id || ""}>
       <ScreenHeading
         title={"Testimonial"}
-        subHeading={"What My Client Say About Me"}
+        subHeading={"What My Clients Say About Me"}
       />
-      <section className="testimonial-section" id={props.id || ""}>
+      <section className="testimonial-section">
         <div className="container">
           <div className="row">
             <OwlCarousel
