@@ -1,9 +1,4 @@
-import {
-  TOTAL_SCREENS,
-  // GET_SCREEN_INDEX,
-} from "../../../utilities/commonUtils";
-
-// import ScrollService from "../../../utilities/ScrollService";
+import { TOTAL_SCREENS } from "../../../utilities/commonUtils";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./header.css";
@@ -12,14 +7,6 @@ import { useState } from "react";
 export default function Header() {
   const [selectedScreen, setSelectedScreen] = useState(0);
   const [showHeaderOptions, setShowHeaderOptions] = useState(false);
-
-  // const updateCurrentScreen = (selectedScreen) => {
-  //   if (!selectedScreen || selectedScreen.screenInView) return;
-  //   let screenIndex = GET_SCREEN_INDEX(selectedScreen.screenInView);
-  //   if (screenIndex < 0) return;
-  // };
-  // let currentScreenSubscription =
-  //   ScrollService.currentScreenBroadCaster.subscribe(updateCurrentScreen);
 
   const getHeaderOptions = () => {
     return TOTAL_SCREENS.map((screen, i) => (

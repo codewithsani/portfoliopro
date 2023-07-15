@@ -65,9 +65,9 @@
     position: absolute;
     left: -100%;
     top: 0px;
-    height: 100vh;
+    height: 50vh;
     width: 100%;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #1f2235;
     z-index: 1000;
     opacity: 0.8;
@@ -75,7 +75,7 @@
   }
 
   .header-option-separator {
-    margin: 10;
+    margin: 0 0 20px 0;
   }
   .selected-header-option {
     color: var(--white);

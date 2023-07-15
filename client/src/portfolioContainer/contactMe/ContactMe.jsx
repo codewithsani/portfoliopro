@@ -3,8 +3,6 @@ import axios from "axios";
 import { toast } from "react-toastify";
 import load1 from "../../images/load2.gif";
 import ScreenHeading from "../../utilities/screenHeading/ScreenHeading";
-// import ScrollService from "../../utilities/ScrollService";
-// import Animations from "../../utilities/Animations";
 import Typical from "react-typical";
 import { useState } from "react";
 import "./contactMe.css";
@@ -15,14 +13,6 @@ export default function ContactMe(props) {
   const [message, setMessage] = useState("");
   const [banner, setBanner] = useState("");
   const [bool, setBool] = useState(false);
-
-  // let fadeInScreenHandler = (screen) => {
-  //   if (screen.fadeInScreen !== props.id) return;
-  //   Animations.animations.fadeInScreen(props.id);
-  // };
-
-  // const fadeInSubscription =
-  //   ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
   const handleName = (e) => {
     setName(e.target.value);
