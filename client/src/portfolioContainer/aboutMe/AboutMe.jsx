@@ -5,14 +5,14 @@ import "./aboutMe.css";
 export default function AboutMe(props) {
   const SCREEN_CONSTANTS = {
     description:
-      "Full stack web and mobile developer with background knowledge of MERN stacks with redux," +
+      "Full stack web developer with background knowledge of MERN stacks," +
       " along with a knack of building applications with utmost efficiency." +
       " Strong professional with a BSC willing to be an asset for an organization.",
     highlights: {
       bullets: [
-        "Full Stack and Mobile development",
+        "Full Stack development",
         "Interactive Frontend and Backend",
-        "React and React Native",
+        "React.js and node.js",
         "Zustand for State Management",
         "Building REST API",
         "Managing Database",

@@ -6,6 +6,7 @@ import "./testimonial.css";
 
 import lady from "../../img/testimonial/lady.png";
 import man from "../../img/testimonial/man.png";
+import ehiz from "../../img/testimonial/ehiz.jpg";
 
 export default function Testimonial(props) {
   const options = {
@@ -49,9 +50,9 @@ export default function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      I patronized Ehizeex and when He delivered, I honestly
-                      fell in love with the project He is a very honest guy and
-                      he delivers ontime.
+                      I patronized SANI and when He delivered, I honestly fell
+                      in love with the project He is a very honest guy and he
+                      delivers ontime.
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
@@ -73,8 +74,8 @@ export default function Testimonial(props) {
                     </ul>
                   </div>
                   <div className="client-info">
-                    <img src={lady} alt="no internet connection" />
-                    <h5>Daisy Dominic</h5>
+                    <img src={ehiz} alt="no internet connection" />
+                    <h5>MaX Mustermann</h5>
                     <p>CEO InansGlobal</p>
                   </div>
                 </div>
@@ -83,43 +84,10 @@ export default function Testimonial(props) {
                 <div className="testi-item">
                   <div className="testi-comment">
                     <p>
-                      <i className="fa fa-quote-left" /> I patronized Ehizeex
-                      and when He delivered, I honestly fell in love with the
-                      project He is a very honest guy and he delivers ontime.
-                      <i className="fa fa-quote-right" />
-                    </p>
-                    <ul className="stars list-unstyled">
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star-half-alt" />
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="client-info">
-                    <img src={man} alt="no internet connection" />
-                    <h5>Daisy Dominic</h5>
-                    <p>CEO InansGlobal</p>
-                  </div>
-                </div>
-              </div>
-              <div className="colo-lg-12">
-                <div className="testi-item">
-                  <div className="testi-comment">
-                    <p>
-                      <i className="fa fa-quote-left" /> I patronized Ehizeex
-                      and when He delivered, I honestly fell in love with the
-                      project He is a very honest guy and he delivers ontime.
+                      <i className="fa fa-quote-left" />
+                      I patronized SANI and when He delivered, I honestly fell
+                      in love with the project He is a very honest guy and he
+                      delivers ontime.
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
@@ -142,7 +110,7 @@ export default function Testimonial(props) {
                   </div>
                   <div className="client-info">
                     <img src={man} alt="no internet connection" />
-                    <h5>Daisy Dominic</h5>
+                    <h5>Max Mustermann</h5>
                     <p>CEO InansGlobal</p>
                   </div>
                 </div>
@@ -151,9 +119,45 @@ export default function Testimonial(props) {
                 <div className="testi-item">
                   <div className="testi-comment">
                     <p>
-                      <i className="fa fa-quote-left" /> I patronized Ehizeex
-                      and when He delivered, I honestly fell in love with the
-                      project He is a very honest guy and he delivers ontime.
+                      <i className="fa fa-quote-left" />
+                      I patronized SANI and when He delivered, I honestly fell
+                      in love with the project He is a very honest guy and he
+                      delivers ontime.
+                      <i className="fa fa-quote-right" />
+                    </p>
+                    <ul className="stars list-unstyled">
+                      <li>
+                        <i className="fa fa-star" />
+                      </li>
+                      <li>
+                        <i className="fa fa-star" />
+                      </li>
+                      <li>
+                        <i className="fa fa-star" />
+                      </li>
+                      <li>
+                        <i className="fa fa-star" />
+                      </li>
+                      <li>
+                        <i className="fa fa-star-half-alt" />
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="client-info">
+                    <img src={ehiz} alt="no internet connection" />
+                    <h5>MAX Mustermann</h5>
+                    <p>CEO InansGlobal</p>
+                  </div>
+                </div>
+              </div>
+              <div className="colo-lg-12">
+                <div className="testi-item">
+                  <div className="testi-comment">
+                    <p>
+                      <i className="fa fa-quote-left" />
+                      I patronized SANI and when He delivered, I honestly fell
+                      in love with the project He is a very honest guy and he
+                      delivers ontime.
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">

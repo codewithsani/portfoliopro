@@ -71,8 +71,11 @@ export default function ContactMe(props) {
               ]}
             />
           </h2>
-          <a href="https://t.me/Armins88s">
-            <i className="fa-brands fa-telegram fa-xl"></i>
+          <a
+            href="https://github.com/codewithsani?tab=repositories"
+            target="blank"
+          >
+            <i className="fa-brands fa-github fa-xl"></i>
           </a>
         </div>
         <div className="back-form">

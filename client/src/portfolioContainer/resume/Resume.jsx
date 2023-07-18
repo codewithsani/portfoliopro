@@ -76,19 +76,19 @@ export default function Resume(props) {
   const resumeDetails = [
     <div className="resume-screen-container" key="education">
       <ResumeHeading
-        heading={"Isfahan Universität,Iran,Isfahan"}
+        heading={"Isfahan Universität, Iran, Isfahan"}
         subHeading={"Bachelor of Science in Elektronik"}
         fromDate={"10.2007"}
         toDate={"10.2013"}
       />
       <ResumeHeading
-        heading={"Universität Stuttgart,Germany"}
+        heading={"Universität Stuttgart, Deutschland"}
         subHeading={"Masterstudium  in Elektrotechnik"}
         fromDate={"04.2015"}
         toDate={"10.2018"}
       />
       <ResumeHeading
-        heading={"GPB Berlin,Germany"}
+        heading={"GPB Berlin,Deutschland"}
         subHeading={"Ausbildung Fachinformatik Anwendungsentwicklung"}
         fromDate={"12.2020"}
         toDate={"07.2022"}
@@ -96,7 +96,7 @@ export default function Resume(props) {
     </div>,
     <div className="resume-screen-container" key="work-experience">
       <ResumeHeading
-        heading={"Universität Stuttgart,Germany"}
+        heading={"Universität Stuttgart, Deutschland"}
         fromDate={"09.2015"}
         toDate={"03.2016"}
         subHeading={"Wissenschaftliche Mitarbeiter"}
@@ -107,23 +107,20 @@ export default function Resume(props) {
           IC-DESIGN
         </span>
       </div>
+      <ResumeHeading
+        heading={"Isfahan Universität, Iran"}
+        fromDate={"10.2011"}
+        toDate={"10.2013"}
+        subHeading={"Wissenschaftliche Mitarbeiter"}
+      />
       <div className="experience-description">
-        <span className="resume-description-text">
-          -Entwerfen und entwickeln leistungsstarke, stromsparende, und
-          kostengünstige integrierte Schaltkreise
-        </span>
-
-        <span className="resume-description-text">
-          - Erstellen und pflegen Designdokumentationen. Simulieren Sie Entwürfe
-          und behebeneventuell auftretende Probleme.
-        </span>
-        <span className="resume-description-text">
-          - Neben dem Entwurf und der Entwicklung integrierter Schaltkreise als
-          ein VLSI-Designingenieur auch habe ich Kenntnisse im Design, in der
-          Simulation und im Layout analoger und digitaler Schaltkreise.
+        <span className="reume-description-text">
+          Wissenschaftliche Mitarbeiter an Isfahan Universität als
+          Hardwareentwickler
         </span>
       </div>
     </div>,
+
     <div
       className="resume-screen-container programming-skills-container"
       key="programming-skills"

@@ -8,12 +8,12 @@ export default function Profile() {
         <div className="profile-details">
           <div className="colz">
             <div className="colz-icon">
-              <a href="https://t.me/Armins88s">
-                <i className="fa-brands fa-telegram fa-xl"></i>
+              <a
+                href="https://github.com/codewithsani?tab=repositories"
+                target="blank"
+              >
+                <i className="fa-brands fa-github fa-xl"></i>
               </a>
-              {/* <a href="#">
-              <i className="fa-brands fa-square-whatsapp"></i>
-            </a> */}
             </div>
           </div>
           <div className="profile-details-name">
